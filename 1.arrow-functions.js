@@ -295,16 +295,16 @@ if result < 0 -> b
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-OBJECT KEYS METHOD-=-=-=-=-=-=-=-=-=-
 
-// let favColors = {
-//   colorOne: "Green",
-//   colorTwo: "Blue",
-//   colorThree: "Brown",
-// };
+let favColors = {
+  colorOne: "Green",
+  colorTwo: "Blue",
+  colorThree: "Brown",
+};
 
-// let keys = Object.keys(favColors);
-// console.log(keys);
+let keys = Object.keys(favColors);
+console.log(keys); // creates an array
 
-// keys.forEach((key) => console.log(key));
+keys.forEach((key) => console.log(key)); // prints each of the keys individually
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-OBJECT VALUES METHOD-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
