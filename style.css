@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  font-family: Josefin Sans, Futura, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nutbutter {
+  background-color: peachpuff;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.fluffernutter {
+  overflow: hidden;
+}
+
+.nutella {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.muhimage {
+  position: absolute;
+  opacity: 0.3;
+}
+
+.gettingjiggywithit {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: honeydew;
+  text-shadow: 0.1rem 0.1rem 0.2rem darkorchid;
+  z-index: 10;
+}
+
+.nananananana {
+  font-size: 9rem;
+  color: papayawhip;
+  text-shadow: 0.2rem 0.2rem 0.5rem cornflowerblue;
+  z-index: 10;
+}
+
+.nipple {
+  z-index: 10;
+  margin: 1rem 0 0 0;
+}
