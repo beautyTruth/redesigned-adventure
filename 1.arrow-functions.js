@@ -112,41 +112,43 @@ if result < 0 -> b
 
 // ----------------------ARRAY FOR EACH METHOD------------------
 
-const bestSongs = [
-  {
-    artist: "Bob Dylan",
-    song: "Like a Rolling Stone",
-  },
+// const bestSongs = [
+//   {
+//     artist: "Bob Dylan",
+//     song: "Like a Rolling Stone",
+//   },
 
-  {
-    artist: "John Lennon",
-    song: "Imagine",
-  },
+//   {
+//     artist: "John Lennon",
+//     song: "Imagine",
+//   },
 
-  {
-    artist: "Chuck Berry",
-    song: "Johnny B. Goode",
-  },
+//   {
+//     artist: "Chuck Berry",
+//     song: "Johnny B. Goode",
+//   },
 
-  {
-    artist: "Aretha Franklin",
-    song: "Respect",
-  },
+//   {
+//     artist: "Aretha Franklin",
+//     song: "Respect",
+//   },
 
-  {
-    artist: "The Beatles",
-    song: "Hey Jude",
-  },
+//   {
+//     artist: "The Beatles",
+//     song: "Hey Jude",
+//   },
 
-  {
-    artist: "Ray Charles",
-    song: "What'd I Say",
-  },
-];
+//   {
+//     artist: "Ray Charles",
+//     song: "What'd I Say",
+//   },
+// ];
 
-bestSongs.forEach((bestsong) => console.log(bestsong));
+// bestSongs.forEach((bestsong) => console.log(bestsong));
 
 // ---------------------ARRAY MAP METHOD---------------------
+
+// loops over the array and creates a new array of the value from the specified key
 
 // const bestSongs = [
 //   {
@@ -187,15 +189,15 @@ bestSongs.forEach((bestsong) => console.log(bestsong));
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-ARRAY REDUCE METHOD-=-=-=-=-=-=-=-=-=-=-=
 
-// const nums = [1, 2, 3, 4, 5];
+const nums = [1, 2, 3, 4, 5];
 
-// const total = nums.reduce(sum, 0);
+const total = nums.reduce(sum, 0);
 
-// function sum(accumulator, value) {
-//   return accumulator + value;
-// }
+function sum(accumulator, value) {
+  return accumulator + value;
+}
 
-// console.log(total);
+console.log(total);
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=ARRAY FILTER METHOD=-=-=-=-=-=-=-=-=-=-=-=-=-
 
