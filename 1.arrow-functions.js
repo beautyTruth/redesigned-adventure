@@ -189,15 +189,15 @@ if result < 0 -> b
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-ARRAY REDUCE METHOD-=-=-=-=-=-=-=-=-=-=-=
 
-const nums = [1, 2, 3, 4, 5];
+// const nums = [1, 2, 3, 4, 5];
 
-const total = nums.reduce(sum, 0);
+// const total = nums.reduce(sum, 0);
 
-function sum(accumulator, value) {
-  return accumulator + value;
-}
+// function sum(accumulator, value) {
+//   return accumulator + value;
+// }
 
-console.log(total);
+// console.log(total);
 
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=ARRAY FILTER METHOD=-=-=-=-=-=-=-=-=-=-=-=-=-
 
