@@ -295,16 +295,16 @@ if result < 0 -> b
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-OBJECT KEYS METHOD-=-=-=-=-=-=-=-=-=-
 
-let favColors = {
-  colorOne: "Green",
-  colorTwo: "Blue",
-  colorThree: "Brown",
-};
+// let favColors = {
+//   colorOne: "Green",
+//   colorTwo: "Blue",
+//   colorThree: "Brown",
+// };
 
-let keys = Object.keys(favColors);
-console.log(keys); // creates an array
+// let keys = Object.keys(favColors);
+// console.log(keys); // creates an array
 
-keys.forEach((key) => console.log(key)); // prints each of the keys individually
+// keys.forEach((key) => console.log(key)); // prints each of the keys individually
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-OBJECT VALUES METHOD-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
@@ -317,17 +317,21 @@ keys.forEach((key) => console.log(key)); // prints each of the keys individually
 // let values = Object.values(favColors);
 // console.log(values);
 
-// values.forEach((value) => console.log(value));
+// values.forEach((value) => console.log(value)); // same as above but with the values
 
 //-=-=-=-=-=-=-=-=-=-=-=-=-OBJECT ENTRIES METHOD-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-// let favColors = {
-//   colorOne: "Green",
-//   colorTwo: "Blue",
-//   colorThree: "Brown",
-// };
+let favColors = {
+  colorOne: "Green",
+  colorTwo: "Blue",
+  colorThree: "Brown",
+};
 
-// let entries = Object.entries(favColors);
-// console.log(entries);
+let entries = Object.entries(favColors);
+console.log(entries); // creates an array of each of the key and value pairs of each item
 
-// entries.forEach((entry) => console.log(entry));
+entries.forEach((entry) => console.log(entry)); // logs each key and value pair into an array of their own
+entries.forEach((entry) => console.log(entry[0])); // logs each key
+entries.forEach((entry) => console.log(entry[1])); // logs each value
+
+// forgive yourself
